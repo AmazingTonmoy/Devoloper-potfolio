@@ -1,0 +1,178 @@
+/* Google Font Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;}
+
+
+
+/* defult css */
+
+.btn-primary{
+ background-color: #FD6E0A;
+ width: 200px;
+height: 64px;
+
+color: #ffff;
+border-radius: 5px;
+border: 0px ;
+ 
+font-weight:700;
+ font-size: 20px;
+}
+
+/* header and navigation style */
+
+.header{
+
+    background-color: #fff8f3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav li{
+    list-style: none;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav h2{
+    margin-top: 51px;
+    margin-left: 226px;
+}
+
+.nav-menu{
+    margin-right: 51px;
+    margin-top: 68px;
+}
+
+
+.nav-btn{
+    margin-right: 230px;
+    margin-top: 50px;
+    padding: 18px 36px;
+    height: 64px;
+    color: #ffff;
+    background-color: #FD6E0A ;
+    border-radius: 5px;
+    border: 0px ;
+     
+    font-weight:700;
+     font-size: 20px;
+   
+}
+
+
+
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* banner style */
+
+.banner{
+    display: flex;
+    
+    
+}
+.banner-content{
+   margin-left: 230px;
+   margin-top: 297px;
+
+}
+
+.banner-content h1{
+font-weight: 700;
+font-size: 75px;
+color: #181818;
+}
+.banner-content h3{
+    font-weight: 600;
+    font-size: 35px;
+    font-style: normal;
+    color: #474747;
+    line-height: 61px;
+    margin-bottom: 20px;
+}
+
+.banner-content p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #757575;
+margin-bottom: 30px;
+}
+
+
+
+.hardy-img{
+    margin-left: 38px;
+    margin-top: 47px;
+}
+
+/* about section style */
+
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title{
+
+
+margin-bottom: 30px;
+font-weight: 700;
+font-size: 35px;
+}
+
+.section-des{
+    color: #757575;
+    font-size: 18px;
+    font-size: 18px;
+
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
